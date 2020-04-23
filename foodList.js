@@ -10,7 +10,7 @@ const foodList = [
 	{
 		num: 2,
 		name: 'IPA',
-		image: 'public/images/ipa.png',
+		image: 'public/images/IPA.png',
 		ABV: '7%',
 		description: '',
 		price: '7'
