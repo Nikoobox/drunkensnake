@@ -33,7 +33,7 @@ const foodList = [
 	},
 	{
 		num: 5,
-		name: 'Brown',
+		name: 'Brown Ale',
 		image: 'public/images/brown.png',
 		ABV: '4.5%',
 		description: '',
