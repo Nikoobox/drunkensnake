@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Questrial', sans-serif;
+}
+.navi-bar {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1e1e1e;
+	background: #f5d647;
+}
+.brand {
+	color: #1e1e1e;
+	font-size: 2.5rem;
+	font-family: 'Questrial', sans-serif;
+	text-decoration: none;
+}
+.brand:hover {
+	color: black;
+	text-decoration: none;
+}
+@media (max-width: 768px) {
+	.brand {
+		font-size: 2rem;
+	}
+}
+.logo {
+	white-space: nowrap;
+}
+
+.fas {
+	color: #1e1e1e;
+	margin-right: 5%;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5%;
+	position: relative;
+}
+
+.beer-select-box {
+	margin-right: 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: #f6f6f6;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-right: 3%;
+	border-radius: 1%;
+}
+
+.menu {
+	font-size: 2rem;
+	margin-bottom: 3%;
+}
+.description {
+	font-size: 1.2rem;
+	margin-top: 8%;
+}
+#beer-info {
+	margin-top: 4%;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+.beer-indiv-info {
+	margin-bottom: 4%;
+}
+
+.beer-indiv-info div:nth-of-type(1) {
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+.image-description {
+	margin-left: 2%;
+}
+.hide-on-start {
+	visibility: hidden;
+}
+
+/* player results */
+.player-results {
+	width: 40%;
+	background: #f5f5dc;
+}
+.unit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#game-end-message {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+	width: 50%;
+	background: #f5d647;
+	font-size: 1.2rem;
+	border-radius: 2%;
+}
+#game-end-message .message {
+	font-size: 1.5rem;
+}
+#game-end-message button {
+	margin: 2%;
+	background: white;
+}
+.allrights {
+	text-align: center;
+	color: rgba(0, 0, 0, .5);
+	margin-top: 5%;
+	margin-bottom: 3%;
+	font-size: 0.9rem;
+}
