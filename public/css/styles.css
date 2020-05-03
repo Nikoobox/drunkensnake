@@ -126,13 +126,11 @@ select:focus {
 	outline: none;
 }
 .main-text{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 3%;
-}
-h3{
 	text-align: center;
-	font-weight: 300!important;
-	max-width: 75%;
-}	
+	margin-top: 3%;
+	margin-left:auto;
+	margin-right: auto;
+	font-size: 1.3rem;
+	width: 75%;
+}
+
